@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Leon</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main {
+    width:100%;
+  }
+}
+</style>
+
+<meta charset="utf-8">
+</head>
+<body style="font-family:Verdana;color:#aaaaaa;">
+<h1>My web page</h1>
+
+<div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+  
+  <h2>Leon Hsu</h2>
+
+</div>
+
+
+
+
+ 
+<div style="overflow:auto">
+  <div class="menu">
+     <ul>
+      <li><a href="introductionMyself.html" target="ifr1">自我介紹</a></li>
+      <li><a href="schoolAndClass.html" target="ifr1">學校</a></li>
+      <li><a href="image.html" target="ifr1">生活照</a></li>
+    </ul>
+  </div>
+
+  <div class="main">
+        <iframe name="ifr1" height="250px" width="100%"></iframe>
+  </div>
+
+  
+</div>
+  
+  <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© mse19980121@gmail.com</div>
+
+
+
+
+</body>
+</html>
